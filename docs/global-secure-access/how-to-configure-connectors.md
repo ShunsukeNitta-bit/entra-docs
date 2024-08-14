@@ -146,6 +146,9 @@ To use Private Access, install a connector on each Windows server you're using f
 
 If you've previously installed a connector, reinstall it to get the latest version. When upgrading, uninstall the existing connector and delete any related folders. To see information about previously released versions and what changes they include, see [Application Proxy: Version Release History](/azure/active-directory/app-proxy/application-proxy-release-version-history).
 
+Private Network is used for application proxying.
+Therefore, you will need to "Enable Private Network connectors" (enable Private Network) to use Microsoft Entra Application Proxy. Enable Private Network connectors" (enable Private Network).
+
 If you choose to have more than one Windows server for your on-premises applications, you need to install and register the connector on each server. You can organize the connectors into connector groups. For more information, see [connector groups](concept-connector-groups.md).
 
 For information about connectors, capacity planning, and how they stay up-to-date, see [Understand Microsoft Entra private network connectors](concept-connectors.md).
